@@ -9532,6 +9532,286 @@ body div.ng-scope:first-child,
       .font-awesome-list .fa-hover:hover i {
         color: #66b6ab; }
 
+.fa {
+    color: #34495E;
+}
+.fa-hover-state {
+    text-shadow: 0px 1px 3px #079394; 
+}
+
+.fa-active-state {
+    text-shadow: 0px 1px 1.5px #079394, 0px -1px 1.5px #079394,
+        1px 0px 1.5px #079394, -1px 0px 1.5px #079394;
+}
+
+
+/* New added style for buttons */
+.button-basic {
+  border-radius: 3px;
+  margin: 0 0 1.25rem;
+  padding: 0.5rem 2rem;
+  font-size: 14.8px;
+  border-bottom: 0;
+}
+
+.button-basic:hover {
+  border-radius: 3px;
+  margin: 0 0 1.25rem;
+  padding: 0.5rem 2rem;
+  font-size: 14.8px;
+  border-bottom: 0;
+}
+
+.button-static {
+  background-color: #079493;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border-color: #007095;
+  color: white;}
+
+.button-static:hover {
+  background-color: #079493;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border-color: #007095;
+  color: white;
+}
+
+.button-hover {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #06807F;
+  box-shadow: 0 3px 3px rgba(7, 147, 148, 0.57);
+}
+
+.button-hover:hover {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #06807F;
+  box-shadow: 0 3px 3px rgba(7, 147, 148, 0.57);
+}
+
+.button-selected {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #06807F;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-selected:hover {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #06807F;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-disabled {
+  color: rgba(112, 112, 112, 0.35) !important;
+  background-color: rgba(112, 112, 112, 0.22);
+  box-shadow: 0 0 0 0;
+}
+
+.button-disabled:hover {
+  color: rgba(112, 112, 112, 0.35) !important;
+  background-color: rgba(112, 112, 112, 0.22);
+  box-shadow: 0 0 0 0;
+}
+
+.button-white-static {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #079493;
+  color: #66B6AB !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-white-static:hover {
+  border-style: solid !important;
+  border-width: 1px;
+  border-color: #079493;
+  color: #66B6AB !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-white-hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #203539 !important;
+  color: #203539 !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-white-hover:hover {
+  border-style: solid !important;
+  border-width: 1px;
+  border-color: #203539 !important;
+  color: #203539 !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-white-selected {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #079493 !important;
+  color: #079493 !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-white-selected:hover {
+  border-style: solid !important;
+  border-width: 1px;
+  border-color: #079493 !important;
+  color: #079493 !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.button-white-disabled {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #CCCCCC !important;
+  color: #CCCCCC !important;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 0;
+}
+
+.button-white-disabled:hover {
+  border-style: solid !important;
+  border-width: 1px;
+  border-color: #CCCCCC !important;
+  color: #CCCCCC !important;
+  background-color: #FFFFFF;
+}
+.button-alert-static {
+  color: #FFFFFF;
+  background-color: #FD4772;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-alert-static:hover {
+  color: #FFFFFF;
+  background-color: #FD4772;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-alert-hover {
+  color: #FFFFFF;
+  background-color: #FF1B51;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-alert-hover:hover {
+  color: #FFFFFF;
+  background-color: #FF1B51;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-alert-selected {
+  color: #FFFFFF;
+  background-color: #FF1B51;
+  box-shadow: 0 3px 2px rgba(255, 27, 81, 0.2);
+}
+
+.button-alert-selected:hover {
+  color: #FFFFFF;
+  background-color: #FF1B51;
+  box-shadow: 0 3px 3px rgba(255, 27, 81, 0.2);
+}
+
+.button-alert-disabled {
+  color: rgba(112, 112, 112, 0.35);
+  background-color: rgba(112, 112, 112, 0.22);
+  box-shadow: 0 0 0 0;
+}
+
+.button-alert-disabled:hover {
+  color: rgba(112, 112, 112, 0.35);
+  background-color: rgba(112, 112, 112, 0.22);
+  box-shadow: 0 0 0 0;
+}
+
+.button-round-basic {
+  border-radius: 25px;
+  margin: 0 0 1.25rem;
+  padding: 0.4rem 3rem;
+  font-size: 14.8px;
+  border-bottom: 0;
+}
+.button-round-basic:hover {
+  border-radius: 25px;
+  margin: 0 0 1.25rem;
+  padding: 0.4rem 3rem;
+  font-size: 14.8px;
+  border-bottom: 0;
+}
+
+.button-round-static {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #203539 !important;
+  border-radius: 25px;
+  color: #203539 !important;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+.button-round-static:hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #203539 !important;
+  border-radius: 25px;
+  color: #203539 !important;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+
+.button-round-hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #079394 !important;
+  border-radius: 25px;
+  color: #079394 !important;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+.button-round-hover:hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #079394 !important;
+  border-radius: 25px;
+  color: #079394 !important;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+
+.button-round-selected {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #707070 !important;
+  border-radius: 25px;
+  color: #FFFFFF !important;
+  background-color: #079493;
+  box-shadow: 0 0 0 0;
+}
+.button-round-selected:hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #707070 !important;
+  border-radius: 25px;
+  color: #FFFFFF !important;
+  background-color: #079493;
+  box-shadow: 0 0 0 0;
+}
+
+
+
 .layout-panel {
   background: white;
   padding: 1.5em 2.5em 0.75rem;
