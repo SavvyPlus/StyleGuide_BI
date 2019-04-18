@@ -9689,6 +9689,7 @@ body div.ng-scope:first-child,
   border-color: #CCCCCC !important;
   color: #CCCCCC !important;
   background-color: #FFFFFF;
+  box-shadow: 0 0 0 0;
 }
 .button-alert-static {
   color: #FFFFFF;
@@ -9733,7 +9734,7 @@ body div.ng-scope:first-child,
 }
 
 .button-alert-disabled:hover {
-  color: rgba(112, 112, 112, 0.35);
+  color: rgba(112, 112, 112, 0.35) !important;
   background-color: rgba(112, 112, 112, 0.22);
   box-shadow: 0 0 0 0;
 }
